@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
+  <script>
+    $(window).on('load', function(){
+      $('#Preloader').fadeOut();
+    });
+  </script>
+</head>
+
+<body>
+  <div id="Preloader">
+    <body>
+      <div id="particles-background" class="vertical-centered-box"></div>
+        <div id="particles-foreground" class="vertical-centered-box"></div>
+
+        <div class="vertical-centered-box">
+        <div class="content">
+          <div class="loader-circle"></div>
+          <div class="loader-line-mask">
+            <div class="loader-line"></div>
+          </div>
+          <img id="prism-logo" src="pliki/logo.png" width="36">
+
+        </div>
+        </div>
+    </body>
+  </div>
+  <img src="pliki/menu-mobile.png" id="hamburger">
+  <section id="menu">
+
+    <div class="area">
+    </div>
+    <nav class="main-menu">
+      <ul>
+        <li>
+          <a href="#top">
+              <img src="pliki/menu-start.png" class="menu-icons">
+              <span class="nav-text">
+                  START
+               </span>
+          </a>
+        </li>
+        <li class="has-subnav">
+          <a href="#about_me">
+            <img src="pliki/menu-omnie.png" class="menu-icons">
+            <span class="nav-text">
+                    O MNIE
+                </span>
+          </a>
+
+        </li>
+        <li class="has-subnav">
+          <a href="#FurryGames">
+            <img src="pliki/menu-front-end.png" class="menu-icons">
+            <span class="nav-text">
+                    FRONT-END DEVELOPER
+                </span>
+          </a>
+
+        </li>
+        <li class="has-subnav">
+          <a href="#websites">
+               <img src="pliki/menu-web.png" class="menu-icons">
+                <span class="nav-text">
+                    PROJEKTY STRON WWW
+                </span>
+            </a>
+
+        </li>
+        <li>
+          <a href="#projects">
+                <img src="pliki/menu-projektygraf.png" class="menu-icons">
+                <span class="nav-text">
+                    GRAFIKA REKLAMOWA
+                </span>
+            </a>
+        </li>
+        <!--<li>
+          <a href="#">
+            <img src="pliki/menu-zp.png" class="menu-icons">
+            <span class="nav-text">
+                    ŻYCIOWE PRZEMYŚLENIA
+                </span>
+          </a>
+        </li>-->
+        <li>
+          <a href="#contact">
+               <img src="pliki/menu-kontakt.png" class="menu-icons">
+                <span class="nav-text">
+                    KONTAKT
+                </span>
+            </a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="top">
+    <article class="title">
+      <img src="pliki/logo.png" class="logo">
+      <h1>Klaudia Polan</h1>
+      <h1>Front-end developer</h1>
+    </article>
+    <video loop autoplay poster="pliki/poster.jpg" preload="auto">
+       <source src="pliki/04.mp4" type='video/mp4'>
+       <source src="pliki/04.ogg" type='video/ogg'>
+       <source src="pliki/04.webm" type='video/webm'>
+    </video>
+  </section>
+
+  <section class="container" id="about_me">
+    <div class="row">
+      <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 about1">
+        <!--<img id="about_img" src="/pliki/aboutme1.png">-->
+      </article>
+      <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 about2">
+        <img src="pliki/aboutme-title.png" class="aboutme-title">
+        <p>Nazywam się Klaudia Polan. Mieszkam w Sosnowcu. Obecnie jestem studentką trzeciego roku Informatyki na Politechnice Śląskiej. Ukończyłam kurs Front-end w Coders Lab. Na kursie poznałam: HTML5, CSS3, Java Script, jQuery, Sass oraz React. Od lat interesuje się grafiką komputerową oraz projektowaniem stron internetowych - jest to moją największą pasją. Bardzo dobrze posługuje się takimi programami jak Adobe Photoshop oraz Adobe Illustrator. Mam roczne doświadczenie w agencji reklamowej, a obecnie pracuje jako grafik freelancer. Z chęcią podejmę się stałej współpracy lub pojedyńczych zleceń, zarówno jako grafik, jak i programista stron internetowych.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="four_icons">
+    <img class="four_icons" src="pliki/4icons.png">
+    <div class='container'>
+      <div class='row'>
+        <div class="col-xs-12 col-sm-12">
+          <img class="four_iconsMobile1" src="pliki/4icons1.png">
+        </div>
+        <div class="col-xs-12 col-sm-12">
+          <img class="four_iconsMobile2" src="pliki/4icons2.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="FurryGames">
+    <div id="game">
+      <section id='score'>
+        <div>
+          LINII KODU<br>
+          <strong>0</strong>
+        </div>
+      </section>
+
+      <section id='board'>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+
+
+      <section id='over' class='invisible'>
+
+      </section>
+
+
+    </div>
+
+    <div class="left_box"></div>
+    <div class="right_box"></div>
+    <div class="description_front">
+      <img class="front" src="pliki/front.png">
+      <p class="furry_text"> Twoim zadaniem jest stworzenie programu. Aby to zrobić zbierz jak najwięcej linii kodu. Poruszaj się strzałkami. Powodzenia! </p>
+      <button id="Furry_Game_button" class="buttonStyle frontEndButton1">ZAGRAJ</button>
+    </div>
+  </section>
+
+  <section id="frontEndSecondSec">
+    <div class="container">
+      <div class="row">
+        <section class="sitOnCherWeb col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="textSitOnCherWeb col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <p>Pierwsza strona stworzona na podstawie projektu CodersLab. Używam HTML5, CSS3, JavaScript.</p>
+            <a href="https://github.com/KlaudiaPolan/SitOnChair-Website"><button class="buttonStyle frontEndButton2">GitHub</button></a>
+          </div>
+        </section>
+        <section class="toDoList col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="textToDoList col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <p>Lista zadań stworzona na warsztatach CodersLab. Używam HTML5, CSS3, JavaScript.</p>
+            <button class="buttonStyle frontEndButton2">GitHub</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="technology">
+    <img src="pliki/front-logos.png" class="technology">
+    <div class='container'>
+      <div class='row'>
+        <div class="col-xs-12 col-sm-12">
+          <img src="pliki/front-logos1.png" class="four_iconsMobile1">
+        </div>
+        <div class="col-xs-12 col-sm-12">
+          <img src="pliki/front-logos2.png" class="four_iconsMobile2">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--STRONY WWW-->
+  <section id="websites">
+    <div class="arrow_left arrows"><img src="pliki/arrow-left.png"></div>
+    <div class="websites">
+      <div class="foto_items clearfix">
+        <img src="pliki/slajd2.jpg" class="left_item">
+        <img src="pliki/slajd1.jpg">
+        <img src="pliki/slajd3.jpg" class="right_item">
+        <img src="pliki/slajd4.jpg">
+        <img src="pliki/slajd5.jpg">
+        <img src="pliki/slajd6.jpg">
+        <img src="pliki/slajd7.jpg">
+      </div>
+    </div>
+     <div class="arrow_right arrows"><img src="pliki/arrow-right.png"></div>
+     <div class='websites_mobile_images'>
+        <img src="pliki/slajd1.jpg">
+        <img src="pliki/slajd2.jpg">
+        <img src="pliki/slajd3.jpg">
+        <img src="pliki/slajd4.jpg">
+        <img src="pliki/slajd5.jpg">
+        <img src="pliki/slajd6.jpg">
+        <img src="pliki/slajd7.jpg">
+     </div>
+  </section>
+
+
+
+
+  <!-- -->
+  <section id="projects" class="container">
+    <div class="row">
+      <section class="sidebar col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+        <img src="pliki/grafika.png" class="projects-title">
+        <nav class="nav">
+          <ul>
+            <li class="active"><a href="#">Logo</a></li>
+            <li><a href="#">Wizytówki</a></li>
+            <li><a href="#">Ulotki, banery, plakaty</a></li>
+            <li><a href="#">Inne</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="col-xs-12 col-sm-12 col-md-8 col-lg-9 col-xl-9">
+        <div class="sectionLogo projects col-lg-12 ">
+
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo1"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo2"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo3"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo4"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo5"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo6"></div>
+          </div>
+
+
+        </div>
+        <div class="sectionCards projects col-lg-12">
+
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo7"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo8"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo9"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo10"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo11"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo12"></div>
+          </div>
+        </div>
+
+        <div class="sectionBanners projects col-lg-12">
+
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo13"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo14"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo15"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo16"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo17"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo18"></div>
+          </div>
+
+        </div>
+
+        <div class="sectionOthers projects col-lg-12">
+
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo19"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo20"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo21"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo22"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo23"></div>
+          </div>
+          <div class="photo col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class=" photo24"></div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </section>
+
+
+
+
+
+  <section id="contact">
+
+    <div class="container">
+      <div class="row">
+        <section class="formSection col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="form col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <img src="pliki/contact-title.png">
+            <form>
+              <input name="email" type="text" class="feedback-input" placeholder="Twój Email" />
+              <textarea name="text" class="feedback-input" placeholder="Wiadomość"></textarea>
+              <input type="submit" value="WYŚLIJ" class="formBtn" />
+            </form>
+          </div>
+        </section>
+        <section class="mapSection col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div id="map"></div>
+          <p>Telefon: 504-407-376 <br> E-mail: polan.szlachta@gmail.com</p>
+          <div class="contactLinks">
+            <a href="https://github.com/KlaudiaPolan"><img src="pliki/github.png" /></a>
+            <img src="pliki/cv.png">
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <section class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <p> KLAUDIA POLAN &copy; 2017</p>
+
+          </section>
+        </div>
+      </div>
+
+    </section>
+      <script src="js/preloader.js"></script>
+
+<script src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2PwMPe-_r52nEevtQSEVLSgqOHsQJU_o&callback=initMap"
+  async defer></script>
+    <script src="js/menu.js"></script>
+    <script src="js/websites.js"></script>
+    <script src="js/top.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/graphic.js"></script>
+    <script src="js/FurryGames.js"></script>
+    <script src="js/frontend.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

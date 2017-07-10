@@ -1,0 +1,75 @@
+#FurryGames{
+  section{
+    padding: 0;
+  }
+  section#score {
+    width: 100%;
+  }
+
+  #board {
+    width: 100%;
+    height: 100%;
+    margin: 1em auto;
+  }
+
+  #board  > div {
+    border: 1px solid lightgrey;
+    float: left;
+    width: 5%;
+    height: 64px;
+  }
+
+
+  section#score div {
+    width: 10em;
+    height: 3em;
+    text-align: center;
+    padding: 0.5em;
+    background-color: rgba(211,211,211, 0.75);
+    border: 1px solid lightgray;
+    border-radius: 1px;
+
+    margin: 20px auto;
+  }
+
+
+
+
+  .furry {
+    background-image: url('../pliki/furry.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .coin {
+    background-image: url('../pliki/coin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  section#over {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 60px;
+    background-color: rgba(231, 231, 231, 0.75);
+  }
+
+  section#over pre {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bolder;
+    color: brown;
+  }
+
+  .invisible {
+    display: none;
+  }
+}
