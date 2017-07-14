@@ -3,7 +3,7 @@ $(document).ready(function() {
 var liProjectMenu = $('#projects').find('li');
 
 liProjectMenu.on('click',function(event){
-  //event.preventDefault();
+  event.preventDefault();
   //console.log('click');
     if(liProjectMenu.siblings().attr('class','active')){
       liProjectMenu.siblings().removeClass('active');
