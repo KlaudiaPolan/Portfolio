@@ -464,6 +464,14 @@ section{
     font-size: 18px;
   }
 }
+
+@media (max-width: 776px) {
+  /* line 463, scss/style.scss */
+  .textSitOnCherWeb, .textToDoList {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
 //technologies section
 #technology{
   background-color: $lightGreyColor;
