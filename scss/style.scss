@@ -427,6 +427,7 @@ section{
   height: 300px;
   background-image: url('../pliki/sitoncher.jpg');
   background-size: cover;
+  background-position: 90% 100%;
   overflow: hidden;
 }
 .toDoList{
@@ -436,6 +437,7 @@ section{
   padding-left: 0;
   background-image: url('../pliki/todolist.jpg');
   background-size: cover;
+  background-position: 100% 100%;
   overflow: hidden;
 
 }
@@ -445,7 +447,8 @@ section{
   width: 50%;
   padding-left: 0;
   background-image: url('../pliki/climb-website.jpg');
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: 100% 100%;
   overflow: hidden;
 
 }
@@ -455,7 +458,8 @@ section{
   width: 50%;
   padding-left: 0;
   background-image: url('../pliki/hotel-website.jpg');
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: 100% 100%;
   overflow: hidden;
 
 }
@@ -465,7 +469,8 @@ section{
   width: 50%;
   padding-left: 0;
   background-image: url('../pliki/cpl-website.jpg');
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: 100% 100%;
   overflow: hidden;
 
 }
@@ -474,8 +479,9 @@ section{
   height: 300px;
   width: 50%;
   padding-left: 0;
-  background-image: url('../pliki/weatherWebsite.jpg'); 
-  background-size: 100% 100%;
+  background-image: url('../pliki/weatherWebsite.jpg');
+  background-size: cover;
+  background-position: 100% 100%;
   overflow: hidden;
 
 }
@@ -501,7 +507,9 @@ section{
 
 @media (max-width: 780px){
   #frontEndSecondSec p{
-    font-size: 18px;
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -510,6 +518,27 @@ section{
   .textSitOnCherWeb,.textclimbWebsite, .textToDoList, .texthotelWebsite, .textcplWebsite, .textweatherWebsite {
     width: 100%;
     margin-left: 0%;
+  }
+}
+
+@media (max-width:){
+  .sitOnCherWeb{
+    background-size: 100% 100%;
+  }
+  .toDoList{
+    background-size: 100% 100%;
+  }
+  .climbWebsite{
+    background-position: 100% 100%;
+  }
+  .hotelWebsite{
+    background-size: 100% 100%;
+  }
+  .cplWebsite{
+    background-size: 100% 100%;
+  }
+  .weatherWebsite{
+    background-size: 100% 100%;
   }
 }
 //technologies section
