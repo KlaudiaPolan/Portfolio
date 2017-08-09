@@ -504,7 +504,31 @@ section{
     font-size: 15px;
   }
 }
-
+@media (max-width: 1125px){
+  .sitOnCherWeb{
+    background-position: 39% 100%;
+  }
+  .toDoList{
+    background-position: 49% 100%;
+  }
+  .climbWebsite{
+    background-position: 88% 100%;
+  }
+  .hotelWebsite{
+    background-position: 88% 100%;
+  }
+  .cplWebsite{
+    background-position: 34% 100%;
+  }
+  .weatherWebsite{
+    background-position: 37% 100%;
+  }
+}
+@media (max-width: 857px){
+  .toDoList{
+    background-position: 49% 0%;
+  }
+}
 @media (max-width: 780px){
   #frontEndSecondSec p{
     font-size: 16px;
