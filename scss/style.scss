@@ -239,6 +239,7 @@ section{
 //About me section
 #about_me{
   background-color: $lightGreyColor;
+  padding-bottom: 10px;
 }
 .about1{
   background-image: url("../pliki/aboutme1.png");
@@ -417,7 +418,7 @@ section{
 
 #frontEndSecondSec{
   width: 100%;
-  height: 300px;
+  //height: 300px;
 }
 .sitOnCherWeb{
   float: left;
@@ -438,8 +439,47 @@ section{
   overflow: hidden;
 
 }
+.climbWebsite{
+  float: left;
+  height: 300px;
+  width: 50%;
+  padding-left: 0;
+  background-image: url('../pliki/climb-website.jpg');
+  background-size: 100% 100%;
+  overflow: hidden;
 
-.textSitOnCherWeb, .textToDoList{
+}
+.hotelWebsite{
+  float: left;
+  height: 300px;
+  width: 50%;
+  padding-left: 0;
+  background-image: url('../pliki/hotel-website.jpg');
+  background-size: 100% 100%;
+  overflow: hidden;
+
+}
+.cplWebsite{
+  float: left;
+  height: 300px;
+  width: 50%;
+  padding-left: 0;
+  background-image: url('../pliki/cpl-website.jpg');
+  background-size: 100% 100%;
+  overflow: hidden;
+
+}
+.weatherWebsite{
+  float: left;
+  height: 300px;
+  width: 50%;
+  padding-left: 0;
+  background-image: url('../pliki/weather-website.jpg');
+  background-size: 100% 100%;
+  overflow: hidden;
+
+}
+.textSitOnCherWeb,.textclimbWebsite, .textToDoList, .texthotelWebsite, .textcplWebsite, .textweatherWebsite{
   width: 50%;
   height: 100%;
   background-color: rgba(47,56,62,0.9);
@@ -467,7 +507,7 @@ section{
 
 @media (max-width: 776px) {
   /* line 463, scss/style.scss */
-  .textSitOnCherWeb, .textToDoList {
+  .textSitOnCherWeb,.textclimbWebsite, .textToDoList, .texthotelWebsite, .textcplWebsite, .textweatherWebsite {
     width: 100%;
     margin-left: 0%;
   }
@@ -482,7 +522,7 @@ section{
   margin-left: 15%;
   width: 70%;
 }
-@media (max-width: 770px){
+@media (max-width: 857px){
   .technology{
     display: none;
   }
