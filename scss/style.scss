@@ -521,24 +521,24 @@ section{
   }
 }
 
-@media (max-width:){
+@media (max-width: 400px){
   .sitOnCherWeb{
-    background-size: 100% 100%;
+    background-position: 54% 100%;
   }
   .toDoList{
-    background-size: 100% 100%;
+    background-position: 60% 100%;
   }
   .climbWebsite{
-    background-position: 100% 100%;
+    background-position: 68% 100%;
   }
   .hotelWebsite{
-    background-size: 100% 100%;
+    background-position: 68% 100%;
   }
   .cplWebsite{
-    background-size: 100% 100%;
+    background-position: 31% 100%;
   }
   .weatherWebsite{
-    background-size: 100% 100%;
+    background-position: 43% 100%;
   }
 }
 //technologies section
