@@ -565,6 +565,73 @@ section{
     background-position: 43% 100%;
   }
 }
+.github{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    .firstLink-github{
+      display: inline;
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      &:hover{
+        color: $azureColor;
+        transition-duration: 0s;
+      }
+      img{
+        width: 25px;
+      }
+    }
+    .secLink-github{
+      display: none;
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      &:hover{
+        transition-duration: 0s;
+        color: $azureColor;
+      }
+      img{
+        width: 25px;
+      }
+    }
+}
+
+.behance{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    .firstLink-behance{
+      display: inline;
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      &:hover{
+        transition-duration: 0s;
+        color: $azureColor;
+      }
+      img{
+        width: 30px;
+      }
+    }
+    .secLink-behance{
+      display: none;
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      &:hover{
+        transition-duration: 0s;
+        color: $azureColor;
+      }
+      img{
+        width: 30px;
+      }
+    }
+}
 //technologies section
 #technology{
   background-color: $lightGreyColor;
@@ -985,7 +1052,7 @@ textarea {
 }
 
 .contactLinks img{
-  width: 8%;
+  width: 6%;
   display: inline;
   margin-top: -20px;
   margin-bottom: 10px;
