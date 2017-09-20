@@ -520,6 +520,47 @@ section{
   padding: 30px;
   text-align: center;
 }
+
+@media (min-width: 1400px){
+  .sitOnCherWeb{
+    height: 380px;
+  }
+  .toDoList{
+    height: 380px;
+  }
+  .climbWebsite{
+    height: 380px;
+  }
+  .hotelWebsite{
+    height: 380px;
+  }
+  .cplWebsite{
+    height: 380px;
+  }
+  .weatherWebsite{
+    height: 380px;
+  }
+}
+@media (min-width: 1665px){
+  .sitOnCherWeb{
+    height: 450px;
+  }
+  .toDoList{
+    height: 450px;
+  }
+  .climbWebsite{
+    height: 450px;
+  }
+  .hotelWebsite{
+    height: 450px;
+  }
+  .cplWebsite{
+    height: 450px;
+  }
+  .weatherWebsite{
+    height: 450px;
+  }
+}
 @media (max-width: 1150px){
   #frontEndSecondSec p{
     font-size: 15px;
